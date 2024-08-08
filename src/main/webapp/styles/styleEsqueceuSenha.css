@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+.parteAzul{
+    position: relative;
+    background-color: #0089ED;
+    height: 50vh;
+}
+
+.imgSize{
+    position: absolute;
+    width: 8vw;
+    top: 2vh;
+    left: 3vw;
+}
+
+h1{
+    color: white;
+    position: absolute;
+    top: 22vh;
+    left: 3vw;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+h2{
+    color: white;
+    position: absolute;
+    top: 29vh;
+    left: 3vw;
+    font-size: 1.2vw;
+    font-weight: 300;
+}
+
+.blocoFormulario{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+    position: fixed;
+    width: 30vw;
+    height: 80vh;
+    left: 35vw;
+    top: 8vh;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.151);
+}
+
+.fixar{
+    position: fixed;
+}
+
+.esqueceusenha{
+    position: fixed;
+    color: black;
+    left: 36.3vw;
+    top: 12vh;
+    font-size: 2.3vw;
+    font-weight: 500;
+}
+
+input[type=password]{
+    position: fixed;
+    border-color: #0089ED;
+    width: 28.2vw;
+    height: 6.3vh;
+    border-radius: 5px;
+    top: 47vh;
+    padding-left: 5px;
+    left: 36.2vw;
+    font-size: 1.2vw;
+}
+
+input[type=email]{
+    position: fixed;
+    border-color: #0089ED;
+    width: 28.2vw;
+    height: 6.3vh;
+    border-radius: 5px;
+    top: 30vh;
+    padding-left: 5px;
+    left: 36.2vw;
+    font-size: 1.2vw;
+}
+
+button[type=submit]{
+    position: fixed;
+    color: white;
+    padding: 0.7vw;
+    border-radius: 5px;
+    background-color: #0089ED;
+    border: none;
+    width: 29vw;
+    top: 75vh;
+    left: 36.2vw;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.226);
+    font-weight: 600;
+    font-size: 1.2vw;
+}
+
+button[type=submit]:hover{
+    background-color: #075791;
+}
+
+.email{
+    position: fixed;
+    top: 25vh;
+    left: 36.4vw;
+    font-size: 1vw;
+}
+
+.senha{
+    position: fixed;
+    top: 42vh;
+    left: 36.4vw;
+    font-size: 1vw;
+}
+
+.confirmarsenha{
+    position: fixed;
+    top: 58.7vh;
+    left: 36.4vw;
+    font-size: 1vw;
+}
+
+input[type=password].confirmarsenhainput{
+    position: fixed;
+    border-color: #0089ED;
+    width: 28.2vw;
+    height: 6.3vh;
+    border-radius: 5px;
+    top: 64vh;
+    padding-left: 5px;
+    left: 36.2vw;
+    font-size: 1.2vw;
+}
+
+.senhasDiferentes {
+    background-color: #ff000099;
+    font-size: 1vw;
+    position: fixed;
+    top: 20.5vh;
+    left: 36.5vw;
+    padding: 2px;
+}
+
+.falhaEmail {
+    background-color: #ff000099;
+    font-size: 1vw;
+    position: fixed;
+    top: 20.5vh;
+    left: 43vw;
+    padding: 2px;
+}

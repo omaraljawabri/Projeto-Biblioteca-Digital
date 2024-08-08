@@ -1,0 +1,264 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: "Poppins";
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #F3F3F7;
+}
+
+.barraLateral{
+    position: fixed;
+    background-color: white;
+    width: 20vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+}
+
+p{
+    font-size: 1.0vw;
+    font-weight: 400;
+}
+
+h1{
+    padding-top: 3vh;
+    font-size: 1.8vw;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #8A8A8A;
+    margin-left: 2vw;
+    font-size: 1.2vw;
+}
+
+.imgMais{
+    position: fixed;
+    top: 19.5vh;
+    width: 1.5vw;
+}
+
+.pAdicionar{
+    position: fixed;
+    top: 20vh;
+    left: 5vw;
+}
+
+.barraUsuario{
+    position: absolute;
+    left: 86vw;
+    top: 2vh;
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.151);
+    width: 13vw;
+    height: 6.3vh;
+    border-radius: 20px;
+}
+
+.bolaUsuario{
+    position: absolute;
+    background-color: #626262;
+    border-radius: 50%;
+    width: 2vw;
+    text-align: center;
+    top: 1vh;
+    left: 1vw;
+    font-size: 1.2vw;
+}
+
+.nomeUsuario{
+    position: absolute;
+    top: 1vh;
+    left: 4vw;
+    font-size: 1.2vw;
+}
+
+.formulario{
+    position: fixed;
+    top: 5vh;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.103);
+    width: 38vw;
+    height: 89vh;
+    left: 35vw;
+}
+
+h1{
+    font-size: 1.5vw;
+}
+
+label{
+    font-family: "Inter";
+}
+
+.titulo{
+    position: fixed;
+    font-weight: 500;
+    left: 38vw;
+    top: 15vh;
+    font-size: 1.2vw;
+}
+
+.inputTitulo{
+    position: fixed;
+    left: 38vw;
+    top: 20vh;
+    padding-left: 10px;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+    width: 30vw;
+    height: 6vh;
+    font-size: 1vw;
+    background-image: url(img/barcodescanner.png);
+    background-repeat: no-repeat;
+    background-size: 1.5vw;
+    background-position: right 5px center;
+}
+
+.autor{
+    position: fixed;
+    font-weight: 500;
+    left: 38vw;
+    top: 30vh;
+    font-size: 1.2vw;
+}
+
+.inputAutor{
+    position: fixed;
+    left: 38vw;
+    top: 35vh;
+    padding-left: 10px;
+    width: 15vw;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+    width: 13vw;
+    height: 6vh;
+    font-size: 1vw;
+    background-image: url(img/barcodescanner2.png);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 0.9vw;
+}
+
+.ano{
+    position: fixed;
+    font-weight: 500;
+    left: 55vw;
+    top: 30vh;
+    font-size: 1.2vw;
+}
+
+.inputAno{
+    position: fixed;
+    left: 55vw;
+    top: 35vh;
+    padding-left: 10px;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+    width: 13vw;
+    height: 6vh;
+    font-size: 1vw;
+    background-image: url(img/barcodescanner2.png);
+    background-repeat: no-repeat;
+    background-position: right 5px center;
+    background-size: 0.9vw;
+}
+
+.categoria{
+    position: fixed;
+    font-weight: 500;
+    left: 38vw;
+    top: 45vh;
+    font-size: 1.2vw;
+}
+
+.inputCategoria{
+    position: fixed;
+    left: 38vw;
+    top: 50vh;
+    padding-left: 10px;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+    width: 30vw;
+    height: 6vh;
+    font-size: 1vw;
+    background-image: url(img/barcodescanner.png);
+    background-repeat: no-repeat;
+    background-size: 1.5vw;
+    background-position: right 5px center;
+}
+
+.local{
+    position: fixed;
+    font-weight: 500;
+    left: 38vw;
+    top: 60vh;
+    font-size: 1.2vw;
+}
+
+.inputLocal{
+    position: fixed;
+    left: 38vw;
+    top: 65vh;
+    padding-left: 10px;
+    border: 1px solid #D6D6D6;
+    border-radius: 5px;
+    width: 30vw;
+    height: 6vh;
+    font-size: 1vw;
+    background-image: url(img/barcodescanner.png);
+    background-repeat: no-repeat;
+    background-size: 1.5vw;
+    background-position: right 5px center;
+}
+
+.imagem{
+    position: fixed;
+    font-weight: 500;
+    left: 38vw;
+    top: 75vh;
+    font-size: 1.2vw;
+}
+
+.inputImagem{
+    position: fixed;
+    left: 38vw;
+    top: 80vh;
+    font-size: 1vw;
+}
+
+.botaoAdicionar{
+    position: fixed;
+    top: 86vh;
+    left: 50vw;
+    background-color: #0089ED;
+    font-size: 1.2vw;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 0.5vw;
+    border-radius: 6px;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.055);
+    cursor: pointer;
+}
+
+.botaoAdicionar:hover{
+    background-color: #0a4066;
+}
+
+.imgLogout {
+    position: absolute;
+    width: 1.6vw;
+    left: 9.7vw;
+    top: 1.3vh;
+}
